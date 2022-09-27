@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Liam Page ~ Personal Site</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="google" content="notranslate">
+        <meta http-equiv="Content-Language" content="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <div id="loaderWrapper">
+        <div class="loader">
+            <div class="dot"></div>
+        </div>
+    </div>
+    <body>
+        <div class="intro">
+            <div class="welcomeMessage">
+            <h2 class="aboutMe thirdContainer">Welcome to my website!</h2>
+            <h3 class="thirdContainer"><span class="Liam">Liam</span><span class="Page">Page</span></h3>
+            <h3 class="frontEnd thirdContainer">Front-End Developer</h3>
+            </div>
+            <nav class="navBar">
+                <button class="logo" id="mode" type="button"></button>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="index.html" class="current-page">About</a>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a>
+                    <li><a href="Cv.pdf" download="Liam's CV">Curriculum Vitae</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="homeBackground" id="colorBackground">
+            <div class="secondContainer">
+                <div class="myImgInfo">
+                    <img src="images/Liam.png" class="aboutMe-myselfImg" alt="Picture of myself">
+                    <div class= "aboutInnerFlex">
+                        <h2 class="aboutMeHeading">Hello! I'm Liam 🤝 </h2>
+                        <p class="aboutMeContent">Liam Page(b.1997) considers himself a professional by day and gamer/party animal at night! </p>
+                    </div>
+                </div>
+            </div>
+            <button id="continueReading" class="container aboutMeContent">Continue Reading</button>
+            <h6 id="noSubscribe">Don't worry, no need to subscribe!</h6>
+            <header class="aboutMe" id="reading">
+                <div class="container">
+                    <h1 class="aboutMeHeading">' Life is like riding a bicycle, to keep your balance, you must keep moving ' </h1>
+                    <h4 id="einstein">- Albert Einstein</h4>
+                    <div class= "aboutFlex">
+                        <div class="aboutInnerFlex box">
+                            <h2 class="aboutMeHeading">Myself</h2>
+                            <p class="aboutMeContent"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper turpis nec diam faucibus tempus. Aenean tristique commodo semper. Sed dictum eros eget felis mollis volutpat quis non felis. Integer porttitor mauris eros, nec congue nibh cursus non. Integer pulvinar turpis elit, ut congue libero bibendum sed.</p>
+                        </div>
+                        <img src="images/gaming.jpg" class="aboutMe-img box" alt="#">
+                    </div>
+                    <div class= "aboutFlex">
+                        <div class= "aboutInnerFlex box clickMeBox">
+                            <h3 id="clickMeMessage">Please don't click the red button!!</h3>
+                            <button id="clickMe"></button>
+                            <div id="clickMeThanks">
+                                <img src="images/thankYou.jpg" class="sizeThanks" alt="#">
+                                <p class="aboutMeContent">Lucky you, this was not a self destruct button. Thank you for taking the time to visit my website.</p>
+                            </div>
+                        </div>
+                        <div class= "aboutInnerFlex box secondParagraph">
+                            <h2 class="aboutMeHeading">Gaming</h2>
+                            <p class="aboutMeContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper turpis nec diam faucibus tempus. Aenean tristique commodo semper. Sed dictum eros eget felis mollis volutpat quis non felis. Integer porttitor mauris eros, nec congue nibh cursus non. Integer pulvinar turpis elit, ut congue libero bibendum sed.</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="projects">
+                </div>
+            </main>
+        </div>
+        <footer class="contactFooter" id="footerColor">
+            <div class="footerFlex" >
+                    <a href="contact.html" class="emailIcon" id="iconEmail">📧<a>
+                    <a href="https://www.linkedin.com/in/liam-page-18102023b/" title="LinkedIn"><svg viewBox="0 0 512 512" class="icon linkedin"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></svg></a>
+            </div>
+        </footer>
+        <script src="./index.js"></script>
+        <script src="./homepage.js"></script>
+    </body>
+</html>

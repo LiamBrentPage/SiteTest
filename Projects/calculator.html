@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html data-theme="light">
+        <head>
+            <title>Projects</title>
+            <link rel="stylesheet" href="../index.css">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </head>
+        <div id="loaderWrapper">
+            <div class="loader">
+                <div class="dot"></div>
+            </div>
+        </div>
+        <body>
+            <div class="intro">
+                <div class="welcomeMessage">
+                    <h2 class="aboutMe thirdContainer">Court Bonds Calc</h2>
+                    <h3 class="thirdContainer"><span class="Liam">Liam</span><span class="Page">Page</span></h3>
+                    <h3 class="frontEnd thirdContainer">Front-End Developer</h3>
+                </div>
+                <nav class="navBar">
+                    <button class="logo" id="mode"></button>
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                    <ul class="menu">
+                        <li><a href="../index.html">About</a>
+                        <li><a href="../Projects.html" class="current-page">Projects</a></li>
+                        <li><a href="../contact.html">Contact</a>
+                        <li><a href="../Cv.pdf" download="Liam's CV">Curriculum Vitae</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </body>
+        <main class="backgroundColour">
+            <div class="container calculator">
+                <p class="aboutMeContent">I’ve been working at Hollard Court Bonds for a while, and I’ve noticed that clients always contact us regarding how much the premium would be on a specific bond amount. After a month and a half of Scrimba/coding, I was then able to create a Chrome Extension, allowing clients to calculate the premium on their own. Once I built the calculator, I then uploaded it to the Chrome Extensions Store for us to send it to clients. Below is the first version which was published.</p>
+            </div>
+            <div class=" thirdContainer">
+                <button id="prevBtn"  aria-label="Previous Slide"><</button>
+                <div class="item itemVisible" id="one">
+                    <img src="../images/bondimage1.jpg">
+                </div>
+                <div class="item " id="two">
+                    <img src="../images/bondimage2.jpg">
+                </div>
+                <button id="nextBtn" aria-label="Next Slide">></button>
+            </div>
+            <div class="container calculator aboutMeContent">
+                <p>I used Html5, CSS and Javascript to create this. Html5 was used for the layout, CSS was used for the design and Javascript was used to connect the following:</p>
+                    <ul>
+                        <li>Reset button: Clears all fields</li>
+                        <li>Calculate button: I have hardcoded the premium rate for users. So, by clicking calculate, it provides the premium rate based on the type of bond chosen.</li>
+                        <li>Enter button: I have added in my code that once a user presses the enter button after typing an amount, the premium will be calculated.</li>
+                    </ul>
+            </div>
+            <div class="container">
+                <p class="aboutMeContent">Once it got approved on the Chrome Extensions Store, my managing director then asked to update certain fields. I then spoke to a colleague of mine who is also into coding, and we were able to make a few updates which included the following:</p>
+                <ul class="aboutMeContent">
+                    <li>Changed the layout</li>
+                    <li>Create a placeholder = “Enter bond value”</li>
+                    <li>Added “annual” premium</li>
+                    <li>Added a minimum premium (R230.00 is the minimum premium for Deceased Estates and Insolvent Estates, R345.00 is the minimum premium for Trusts, Curatorships and Asset Forfeiture)</li>
+                </ul>
+                <p class="aboutMeContent">What I've learnt from this, is that the Chrome Extension Store has strict rules and abide to them. The reason why I'm saying this, is because my extension got rejected due to the description being too short. In order to find this on the Chrome Extension Store, please click <a href="https://chrome.google.com/webstore/detail/court-bonds-calculator/mibjdpmmaboehhphlbofbiemjcoknbdp" class="extension">here</a></p>
+            </div>
+            <div class=" thirdContainer">
+                <button id="prevBtnTwo"  aria-label="Previous Slide"><</button>
+                <div class="item itemVisible" id="three" >
+                    <img src="../images/bondimage3.jpg">
+                </div>
+                <div class="item" id="four">
+                    <img src="../images/bondimage4.jpg">
+                </div>
+                <button id="nextBtnTwo"  aria-label="Next Slide">></button>
+            </div>
+        </main>
+        <footer class="contact">
+            <div class="footerFlex">
+                    <a href="contact.html" class="emailIcon ">📧<a>
+                    <a href="https://www.linkedin.com/in/liam-page-18102023b/" title="LinkedIn"><svg viewBox="0 0 512 512" class="icon linkedin"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></svg></a>
+            </div>
+        </footer>
+         <script src="../index.js"></script>
+         <script src="../calculator.js"></script>
+    </html>
