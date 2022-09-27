@@ -36,5 +36,5 @@ setTimeout(function(){
 
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
-    document.getElementById("loaderWrapper").style.display = "block";
+
   }
