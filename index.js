@@ -35,6 +35,6 @@ setTimeout(function(){
 }, 2000);
 
 window.onbeforeunload = function () {
+    document.html.style.display = "none";
     window.scrollTo(0, 0);
-
   }
